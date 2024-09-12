@@ -24,6 +24,7 @@ housing_data.columns = [
 
 # Checking for missing values
 print(housing_data.isnull().sum())
+print(hosuing_data.isnull().sum())
 
 
 
