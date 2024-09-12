@@ -1,0 +1,33 @@
+# House Price Prediction using Linear Regression
+
+## Overview
+This project predicts house prices based on various features like crime rate, number of rooms, etc., using Linear Regression. The dataset used is the Boston Housing Dataset.
+
+## Project Structure
+- **data/**: Contains the dataset.
+- **notebooks/**: Contains the Jupyter notebook with the analysis and model building.
+- **models/**: Contains trained models (optional).
+- **results/**: Contains plots and evaluation metrics (optional).
+
+## Getting Started
+1. Clone this repository: `git clone https://github.com/your-username/house-price-prediction.git`
+2. Install the dependencies: `pip install -r requirements.txt`
+3. Run the Jupyter notebook or Python script to train the model.
+
+## Dataset
+The dataset contains the following features:
+- **CRIM**: Crime rate per capita
+- **RM**: Average number of rooms per dwelling
+- ... (Add more feature descriptions)
+
+## Model
+- A Linear Regression model is trained to predict house prices.
+- Evaluation metrics: MAE, MSE, R²
+
+## Results
+- The model achieved an R² score of `0.65`.
+
+## Future Work
+- Explore advanced regression techniques like Ridge and Lasso.
+- Apply cross-validation for more robust evaluation.
+
